@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>covid survey</title>
+        <link href="surveystyle.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <header>Be cautious not panicked</header>
+        <div class="survey-space">
+            <p> 1.Name : <input  id="name" type="text" ></p>
+            <p >2.Age : <input id="age" type="text" > </p>
+            <p>3.Select all the symptoms you noticed in last 14 days</p>
+            <div class="checks">
+               <p id="cold"><input type="checkbox"> Cold</p>
+               <p id="cough"><input type="checkbox"> Cough</p>
+               <p id="headache"><input type="checkbox"> headache</p>
+               <p id="breathing difficulties"><input type="checkbox">breathing difficulties</p>
+               <p id="bodypains"><input type="checkbox"> bodypains</p>
+            </div>
+            <p>4.Have you been out of your home in past 14 days</p>
+            <div class="choose">
+                <button id="outdoor">Yes</button>
+                <button id="nos">No</button>
+            </div>
+            <p>5.have you been close to someone ho tested postive</p>
+            <div class="choose">
+                <button id="close">Yes</button>
+                <button id="bos">No</button>
+            </div>
+            <p>6.did you have any breathing related issues in past?</p>
+            <div class="choose">
+                <button id="breathe">Yes</button>
+                <button id="jos">No</button>
+            </div>
+
+        </div>
+        <button id="end"><a href="#endingm">submit</button>
+        <div class="endicote">
+            <p id="endingm"></p>
+        </div>
+        <script src="surveywork.js";></script>
+    </body>
+</html>
